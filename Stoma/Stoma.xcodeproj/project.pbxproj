@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD7C68025A84ABA00C70279 /* StomaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7C67F25A84ABA00C70279 /* StomaApp.swift */; };
+		ACD7C68225A84ABA00C70279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7C68125A84ABA00C70279 /* ContentView.swift */; };
+		ACD7C68425A84ABB00C70279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD7C68325A84ABB00C70279 /* Assets.xcassets */; };
+		ACD7C68725A84ABB00C70279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD7C68625A84ABB00C70279 /* Preview Assets.xcassets */; };
+		ACD7C69225A84ABB00C70279 /* StomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7C69125A84ABB00C70279 /* StomaTests.swift */; };
+		ACD7C69D25A84ABB00C70279 /* StomaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7C69C25A84ABB00C70279 /* StomaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD7C68E25A84ABB00C70279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD7C67425A84ABA00C70279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD7C67B25A84ABA00C70279;
+			remoteInfo = Stoma;
+		};
+		ACD7C69925A84ABB00C70279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD7C67425A84ABA00C70279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD7C67B25A84ABA00C70279;
+			remoteInfo = Stoma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD7C67C25A84ABA00C70279 /* Stoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD7C67F25A84ABA00C70279 /* StomaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StomaApp.swift; sourceTree = "<group>"; };
+		ACD7C68125A84ABA00C70279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACD7C68325A84ABB00C70279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD7C68625A84ABB00C70279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD7C68825A84ABB00C70279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD7C68D25A84ABB00C70279 /* StomaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StomaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD7C69125A84ABB00C70279 /* StomaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StomaTests.swift; sourceTree = "<group>"; };
+		ACD7C69325A84ABB00C70279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD7C69825A84ABB00C70279 /* StomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StomaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD7C69C25A84ABB00C70279 /* StomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StomaUITests.swift; sourceTree = "<group>"; };
+		ACD7C69E25A84ABB00C70279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD7C67925A84ABA00C70279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD7C68A25A84ABB00C70279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD7C69525A84ABB00C70279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD7C67325A84ABA00C70279 = {
+			isa = PBXGroup;
+			children = (
+				ACD7C67E25A84ABA00C70279 /* Stoma */,
+				ACD7C69025A84ABB00C70279 /* StomaTests */,
+				ACD7C69B25A84ABB00C70279 /* StomaUITests */,
+				ACD7C67D25A84ABA00C70279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD7C67D25A84ABA00C70279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7C67C25A84ABA00C70279 /* Stoma.app */,
+				ACD7C68D25A84ABB00C70279 /* StomaTests.xctest */,
+				ACD7C69825A84ABB00C70279 /* StomaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD7C67E25A84ABA00C70279 /* Stoma */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7C67F25A84ABA00C70279 /* StomaApp.swift */,
+				ACD7C68125A84ABA00C70279 /* ContentView.swift */,
+				ACD7C68325A84ABB00C70279 /* Assets.xcassets */,
+				ACD7C68825A84ABB00C70279 /* Info.plist */,
+				ACD7C68525A84ABB00C70279 /* Preview Content */,
+			);
+			path = Stoma;
+			sourceTree = "<group>";
+		};
+		ACD7C68525A84ABB00C70279 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7C68625A84ABB00C70279 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD7C69025A84ABB00C70279 /* StomaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7C69125A84ABB00C70279 /* StomaTests.swift */,
+				ACD7C69325A84ABB00C70279 /* Info.plist */,
+			);
+			path = StomaTests;
+			sourceTree = "<group>";
+		};
+		ACD7C69B25A84ABB00C70279 /* StomaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7C69C25A84ABB00C70279 /* StomaUITests.swift */,
+				ACD7C69E25A84ABB00C70279 /* Info.plist */,
+			);
+			path = StomaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD7C67B25A84ABA00C70279 /* Stoma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD7C6A125A84ABB00C70279 /* Build configuration list for PBXNativeTarget "Stoma" */;
+			buildPhases = (
+				ACD7C67825A84ABA00C70279 /* Sources */,
+				ACD7C67925A84ABA00C70279 /* Frameworks */,
+				ACD7C67A25A84ABA00C70279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stoma;
+			productName = Stoma;
+			productReference = ACD7C67C25A84ABA00C70279 /* Stoma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD7C68C25A84ABB00C70279 /* StomaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD7C6A425A84ABB00C70279 /* Build configuration list for PBXNativeTarget "StomaTests" */;
+			buildPhases = (
+				ACD7C68925A84ABB00C70279 /* Sources */,
+				ACD7C68A25A84ABB00C70279 /* Frameworks */,
+				ACD7C68B25A84ABB00C70279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD7C68F25A84ABB00C70279 /* PBXTargetDependency */,
+			);
+			name = StomaTests;
+			productName = StomaTests;
+			productReference = ACD7C68D25A84ABB00C70279 /* StomaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD7C69725A84ABB00C70279 /* StomaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD7C6A725A84ABB00C70279 /* Build configuration list for PBXNativeTarget "StomaUITests" */;
+			buildPhases = (
+				ACD7C69425A84ABB00C70279 /* Sources */,
+				ACD7C69525A84ABB00C70279 /* Frameworks */,
+				ACD7C69625A84ABB00C70279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD7C69A25A84ABB00C70279 /* PBXTargetDependency */,
+			);
+			name = StomaUITests;
+			productName = StomaUITests;
+			productReference = ACD7C69825A84ABB00C70279 /* StomaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD7C67425A84ABA00C70279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					ACD7C67B25A84ABA00C70279 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					ACD7C68C25A84ABB00C70279 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = ACD7C67B25A84ABA00C70279;
+					};
+					ACD7C69725A84ABB00C70279 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = ACD7C67B25A84ABA00C70279;
+					};
+				};
+			};
+			buildConfigurationList = ACD7C67725A84ABA00C70279 /* Build configuration list for PBXProject "Stoma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD7C67325A84ABA00C70279;
+			productRefGroup = ACD7C67D25A84ABA00C70279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD7C67B25A84ABA00C70279 /* Stoma */,
+				ACD7C68C25A84ABB00C70279 /* StomaTests */,
+				ACD7C69725A84ABB00C70279 /* StomaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD7C67A25A84ABA00C70279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD7C68725A84ABB00C70279 /* Preview Assets.xcassets in Resources */,
+				ACD7C68425A84ABB00C70279 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD7C68B25A84ABB00C70279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD7C69625A84ABB00C70279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD7C67825A84ABA00C70279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD7C68225A84ABA00C70279 /* ContentView.swift in Sources */,
+				ACD7C68025A84ABA00C70279 /* StomaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD7C68925A84ABB00C70279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD7C69225A84ABB00C70279 /* StomaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD7C69425A84ABB00C70279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD7C69D25A84ABB00C70279 /* StomaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD7C68F25A84ABB00C70279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD7C67B25A84ABA00C70279 /* Stoma */;
+			targetProxy = ACD7C68E25A84ABB00C70279 /* PBXContainerItemProxy */;
+		};
+		ACD7C69A25A84ABB00C70279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD7C67B25A84ABA00C70279 /* Stoma */;
+			targetProxy = ACD7C69925A84ABB00C70279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACD7C69F25A84ABB00C70279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD7C6A025A84ABB00C70279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD7C6A225A84ABB00C70279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stoma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stoma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AIRes.Stoma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD7C6A325A84ABB00C70279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stoma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stoma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AIRes.Stoma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACD7C6A525A84ABB00C70279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StomaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AIRes.StomaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stoma.app/Stoma";
+			};
+			name = Debug;
+		};
+		ACD7C6A625A84ABB00C70279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StomaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AIRes.StomaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stoma.app/Stoma";
+			};
+			name = Release;
+		};
+		ACD7C6A825A84ABB00C70279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StomaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AIRes.StomaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stoma;
+			};
+			name = Debug;
+		};
+		ACD7C6A925A84ABB00C70279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StomaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AIRes.StomaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stoma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD7C67725A84ABA00C70279 /* Build configuration list for PBXProject "Stoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD7C69F25A84ABB00C70279 /* Debug */,
+				ACD7C6A025A84ABB00C70279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD7C6A125A84ABB00C70279 /* Build configuration list for PBXNativeTarget "Stoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD7C6A225A84ABB00C70279 /* Debug */,
+				ACD7C6A325A84ABB00C70279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD7C6A425A84ABB00C70279 /* Build configuration list for PBXNativeTarget "StomaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD7C6A525A84ABB00C70279 /* Debug */,
+				ACD7C6A625A84ABB00C70279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD7C6A725A84ABB00C70279 /* Build configuration list for PBXNativeTarget "StomaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD7C6A825A84ABB00C70279 /* Debug */,
+				ACD7C6A925A84ABB00C70279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD7C67425A84ABA00C70279 /* Project object */;
+}
