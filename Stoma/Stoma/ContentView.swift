@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var registration = false
     var body: some View {
         ZStack {
-            Color(#colorLiteral(red: 0.9261491895, green: 0.9263044, blue: 0.9261286855, alpha: 1))
+            Color(#colorLiteral(red: 0.9607735276, green: 0.9606898427, blue: 0.9735688567, alpha: 1))
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
@@ -49,7 +49,7 @@ struct ContentView: View {
                             .padding(.bottom, 5.0)
                             Text("")
                                 .frame(width: screen.width/2.5, height: screen.height/250)
-                                .background(Color(#colorLiteral(red: 0.9986596704, green: 0.4876412153, blue: 0.002014608821, alpha: 1)))
+                                .background(Color(#colorLiteral(red: 0.9571954608, green: 0.4740248322, blue: 0.126337409, alpha: 1)))
                                 .cornerRadius(70)
                                 .offset(x: registration ? screen.width / -4.5 : screen.width / 5)
                                 .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
@@ -82,8 +82,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-let screen = UIScreen.main.bounds
 
 extension View {
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
@@ -123,8 +121,8 @@ struct entranceView: View {
                 .font(Font.system(size: 20))
                 .fontWeight(.bold)
                 .frame(width: screen.width*0.8, height: screen.height*0.08, alignment: .center)
-                .foregroundColor(Color(#colorLiteral(red: 0.9487964511, green: 0.9489552379, blue: 0.9487755895, alpha: 1)))
-                .background(Color(#colorLiteral(red: 1, green: 0.4852788448, blue: 0, alpha: 1)))
+                .foregroundColor(Color(#colorLiteral(red: 0.9646949172, green: 0.9646115899, blue: 0.9774901271, alpha: 1)))
+                .background(Color(#colorLiteral(red: 0.9571954608, green: 0.4740248322, blue: 0.126337409, alpha: 1)))
                 .cornerRadius(30)
                 .offset(x: 0, y: show ? screen.height / -3.5 : screen.height / -25)
                 .onTapGesture{
@@ -176,7 +174,7 @@ struct entranceformView: View{
     var body: some View{
         VStack{
             HStack {
-                Text("Телефон").foregroundColor(Color(#colorLiteral(red: 0.5775940418, green: 0.577694118, blue: 0.5775808692, alpha: 1))).fontWeight(.bold)
+                Text("Телефон").foregroundColor(Color(#colorLiteral(red: 0.6901494265, green: 0.6902310252, blue: 0.6901126504, alpha: 1))).fontWeight(.bold)
                     .padding(.bottom, screen.height / 100)
                 Spacer()
                 
@@ -185,22 +183,22 @@ struct entranceformView: View{
                 .padding(.bottom, screen.height / 250)
             Text("")
                 .frame(width: screen.width/1.3, height: screen.height / 750)
-                .background(Color(#colorLiteral(red: 0.2835051119, green: 0.2835586667, blue: 0.2834980488, alpha: 1)))
+                .background(Color(#colorLiteral(red: 0.1147359833, green: 0.1096405461, blue: 0.1097042784, alpha: 1)))
                 .cornerRadius(70)
                 .offset(x: screen.width / -15)
                 .padding(.bottom, screen.height / 20)
             
             HStack{
-                Text("Пароль").foregroundColor(Color(#colorLiteral(red: 0.5775940418, green: 0.577694118, blue: 0.5775808692, alpha: 1))).fontWeight(.bold)
+                Text("Пароль").foregroundColor(Color(#colorLiteral(red: 0.6901494265, green: 0.6902310252, blue: 0.6901126504, alpha: 1))).fontWeight(.bold)
                     .padding(.bottom, screen.height / 100)
                 Spacer()
                 
             }
-            TextField("*****", text: $userPass)
+            SecureField("*****", text: $userPass)
                 .padding(.bottom, screen.height / 250)
             Text("")
                 .frame(width: screen.width/1.3, height: screen.height / 700)
-                .background(Color(#colorLiteral(red: 0.2835051119, green: 0.2835586667, blue: 0.2834980488, alpha: 1)))
+                .background(Color(#colorLiteral(red: 0.1147359833, green: 0.1096405461, blue: 0.1097042784, alpha: 1)))
                 .cornerRadius(70)
                 .offset(x: screen.width / -15)
                 .padding(.bottom, screen.height / 20)
@@ -242,8 +240,9 @@ struct registrationView: View {
                 Spacer()
                 
             }
-            TextField("*****", text: $userPass)
+            SecureField("*****", text: $userPass)
                 .padding(.bottom, screen.height / 250)
+                    
             Text("")
                 .frame(width: screen.width/1.3, height: screen.height / 700)
                 .background(Color(#colorLiteral(red: 0.2835051119, green: 0.2835586667, blue: 0.2834980488, alpha: 1)))
@@ -264,8 +263,8 @@ struct registrationView: View {
                 .font(Font.system(size: 20))
                 .fontWeight(.bold)
                 .frame(width: screen.width*0.8, height: screen.height*0.08, alignment: .center)
-                .foregroundColor(Color(#colorLiteral(red: 0.9487964511, green: 0.9489552379, blue: 0.9487755895, alpha: 1)))
-                .background(Color(#colorLiteral(red: 1, green: 0.4852788448, blue: 0, alpha: 1)))
+                .foregroundColor(Color(#colorLiteral(red: 0.9646949172, green: 0.9646115899, blue: 0.9774901271, alpha: 1)))
+                .background(Color(#colorLiteral(red: 0.9571954608, green: 0.4740248322, blue: 0.126337409, alpha: 1)))
                 .cornerRadius(30)
                 .offset(x: 0, y: screen.height / -25)
         }
@@ -273,4 +272,5 @@ struct registrationView: View {
     
 }
 
+let screen = UIScreen.main.bounds
 

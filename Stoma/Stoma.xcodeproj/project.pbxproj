@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC7E3A1625AA859E000D20DA /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E3A1525AA859E000D20DA /* mainView.swift */; };
+		ACC4775525AE270500782011 /* mainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4775425AE270500782011 /* mainWindow.swift */; };
 		ACD7C68025A84ABA00C70279 /* StomaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7C67F25A84ABA00C70279 /* StomaApp.swift */; };
 		ACD7C68225A84ABA00C70279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7C68125A84ABA00C70279 /* ContentView.swift */; };
 		ACD7C68425A84ABB00C70279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD7C68325A84ABB00C70279 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		AC7E3A1525AA859E000D20DA /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		ACC4775425AE270500782011 /* mainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainWindow.swift; sourceTree = "<group>"; };
 		ACD7C67C25A84ABA00C70279 /* Stoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD7C67F25A84ABA00C70279 /* StomaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StomaApp.swift; sourceTree = "<group>"; };
 		ACD7C68125A84ABA00C70279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				ACD7C67F25A84ABA00C70279 /* StomaApp.swift */,
 				ACD7C68125A84ABA00C70279 /* ContentView.swift */,
+				ACC4775425AE270500782011 /* mainWindow.swift */,
 				ACD7C68325A84ABB00C70279 /* Assets.xcassets */,
 				ACD7C68825A84ABB00C70279 /* Info.plist */,
 				ACD7C68525A84ABB00C70279 /* Preview Content */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC4775525AE270500782011 /* mainWindow.swift in Sources */,
 				AC7E3A1625AA859E000D20DA /* mainView.swift in Sources */,
 				ACD7C68225A84ABA00C70279 /* ContentView.swift in Sources */,
 				ACD7C68025A84ABA00C70279 /* StomaApp.swift in Sources */,
